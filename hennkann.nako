@@ -1,8 +1,15 @@
-CONS_S="(p|b|t|d|k|g|'|c|s|x|X|tx|dX|sl|tc|m|n|N|h|ph|bh|th|dh|kh|gh|txh|dXh|tch|l|r|rr|j|w)"
-VOWL_S="(a|q|Q|A|i|I|y|u|o|e|E|O|a:|q:|Q:|A:|i:|I:|y:|u:|o:|e:|E:|O:)"
+CONS_S="(|rr|ph|bh|th|dh|kh|gh|txh|dXh|tch|tx|dXp|b|t|d|k|g|'|c|s|x|X|sl|tc|m|n|N|h|l|r|j|w)"
+//子音
+VOWL_S="(|a:|q:|Q:|A:|i:|I:|y:|u:|o:|e:|E:|O:a|q|Q|A|i|I|y|u|o|e|E|O)"
+//母音
 音節_S="{CONS_S}*{CONS_S}*{CONS_S}*{CONS_S}*{VOWL_S}{CONS_S}*{CONS_S}*{CONS_S}*{CONS_S}*"
-//$1$2$3$4$5$6$7
-「prika」をPL後期して表示。
+//音節　$1$2$3$4$5$6$7
+LVOWL_S="(a:|q:|Q:|A:|i:|I:|y:|u:|o:|e:|E:|O:)"
+//長母音
+SVOWL_S="(a|q|Q|A|i|I|y|u|o|e|E|O)"
+//短母音
+
+「」をPL後期して表示。
 
 ●PL後期(Aを)
 　　それはA
@@ -10,6 +17,8 @@ VOWL_S="(a|q|Q|A|i|I|y|u|o|e|E|O|a:|q:|Q:|A:|i:|I:|y:|u:|o:|e:|E:|O:)"
 　　「{CONS_S}*u{CONS_S}*{CONS_S}*(i|y){CONS_S}*」を「$1o$2$3$4$5」へ正規表現置換。
 　　「{VOWL_S}n\b」を「$1:」へ正規表現置換。
 　　「e(n|m){CONS_S}*」を「i$1$2」へ正規表現置換。
-　　もし（それを「.*{VOWL_S}.*{VOWL_S}.*」で正規表現マッチ）ならば、「(a|e)\b」を「」へ正規表現置換。
-　　「ei」を「i:」に置換。
+　　もし（それを「.*{VOWL_S}.*{VOWL_S}.*」で正規表現マッチ）ならば、「(a|e)\Z」を「」へ正規表現置換。
+　　「ej」を「i:」に置換。
+　　「o:\Z」を「u」に正規表現置換。
+　　「:\Z」を「」に正規表現置換。
 　　それで戻る。
