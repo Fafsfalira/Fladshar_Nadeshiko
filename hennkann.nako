@@ -1,0 +1,9 @@
+CONS_S="(p|b|t|d|k|g|'|c|s|x|X|tx|dX|sl|tc|m|n|N|h|ph|bh|th|dh|kh|gh|txh|dXh|tch|l|r|rr|j|w)"
+VOWL_S="(a|q|Q|A|i|I|y|u|o|e|E|O|a:|q:|Q:|A:|i:|I:|y:|u:|o:|e:|E:|O:)"
+音節_S="({CONS_S})({VOWL_S})"
+
+「fetifeti」をPL後期して表示。
+
+●PL後期(Aを)
+　　Aの「{CONS_S}*e{CONS_S}*{CONS_S}*i{CONS_S}*」を「$1i$2$3i$4」へ正規表現置換
+　　それで戻る。
