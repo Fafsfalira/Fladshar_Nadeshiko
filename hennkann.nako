@@ -1,6 +1,6 @@
-CONS_S="(|rr|ph|bh|th|dh|kh|gh|txh|dXh|tch|tx|dXp|b|t|d|k|g|'|c|s|x|X|sl|tc|m|n|N|h|l|r|j|w)"
+CONS_S="(|rr|ph|bh|th|dh|kh|gh|txh|dXh|tch|tx|dX|p|b|t|d|k|g|'|c|s|x|X|sl|tc|m|n|N|h|l|r|j|w)"
 //éqâπ
-VOWL_S="(|a:|q:|Q:|A:|i:|I:|y:|u:|o:|e:|E:|O:a|q|Q|A|i|I|y|u|o|e|E|O)"
+VOWL_S="(|a:|q:|Q:|A:|i:|I:|y:|u:|o:|e:|E:|O:|a|q|Q|A|i|I|y|u|o|e|E|O)"
 //ïÍâπ
 âπêﬂ_S="{CONS_S}*{CONS_S}*{CONS_S}*{CONS_S}*{VOWL_S}{CONS_S}*{CONS_S}*{CONS_S}*{CONS_S}*"
 //âπêﬂÅ@$1$2$3$4$5$6$7
