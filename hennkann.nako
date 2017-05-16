@@ -1,25 +1,35 @@
-CONS_S="(rr|ph|bh|th|dh|kh|gh|txh|dXh|tch|tx|dX|sl|tc|p|b|t|d|k|g|'|c|s|x|X|m|n|N|h|l|r|j|w)"
+CONS_S="(rr|ph|bh|th|dh|kh|gh|txh|dXh|tch|tx|dX|sl|tc|p|b|t|d|k|g|'|c|s|x|X|m|n|N|h|l|r|j|w|T|D|f|v|R)"
 //子音
-VOWL_S="(a:|q:|Q:|A:|i:|I:|y:|u:|o:|e:|E:|O:|a|q|Q|A|i|I|y|u|o|e|E|O)"
+VOWL_S="(a:|q:|Q:|A:|i:|I:|y:|u:|o:|e:|E:|O:|U:|@:|V:|C:|a|q|Q|A|i|I|y|u|o|e|E|O|U|@|V|C)"
 //母音
 音節_S="{CONS_S}*{CONS_S}*{CONS_S}*{CONS_S}*{VOWL_S}{CONS_S}*{CONS_S}*{CONS_S}*{CONS_S}*"
 //音節　$1$2$3$4$5$6$7
-LVOWL_S="(a:|q:|Q:|A:|i:|I:|y:|u:|o:|e:|E:|O:)"
+LVOWL_S="(a:|q:|Q:|A:|i:|I:|y:|u:|o:|e:|E:|O:|U:|@:|V:|C:)"
 //長母音
-SVOWL_S="(a|q|Q|A|i|I|y|u|o|e|E|O)"
+SVOWL_S="(a|q|Q|A|i|I|y|u|o|e|E|O|U|@|V|C)"
 //短母音
-#ejnina
-「prusti」をPL後期。
+#二重母音では必ず({CONS_S}*)をj/wの後に付けること、でないとajaやawaも検出してしまう。
+
+「prajzawz」を語派期。
 それを表示。
 
 ●PL後期(Aを)
 　　それはA
-　　「ej」を「i:」に置換。
+　　「ej({CONS_S}*)」を「i:$2」に置換。
 　　「o:\Z」を「u」に正規表現置換。
 　　「:\Z」を「」に正規表現置換。
+　　「{VOWL_S}n\b」を「$1:」へ正規表現置換。
 　　「({CONS_S}*)e({CONS_S}*)i({CONS_S}*)」を「$1i$3i」へ正規表現置換。
 　　「({CONS_S}*)u({CONS_S}*)(i|y)({CONS_S}*)」を「$1o$3$5$6」へ正規表現置換。
-　　「{VOWL_S}n\b」を「$1:」へ正規表現置換。
 　　「e(n|m)({CONS_S}*)」を「i$1$2」へ正規表現置換。
 　　もし（それを「.*{VOWL_S}.*{VOWL_S}.*」で正規表現マッチ）ならば、「(a|e)\Z」を「」へ正規表現置換。
 　　それで戻る。
+
+●語派期(Aを)
+　　それはA
+　　「{CONS_S}(j|w|r|l){VOWL_S}」を「$1$2$2$3」へ正規表現置換。
+　　「A:」を「a:」に置換。
+　　「aj({CONS_S}*)」を「A:」に正規表現置換。
+　　「aw({CONS_S}*)」を「o:」に正規表現置換。
+　　「z\b」を「」へ正規表現置換。
+　　「z」を「r」に置換
