@@ -1,0 +1,17 @@
+﻿##fladsha phonological change
+@CASE_SENSITIVE
+aspiratable = "p" | "b" | "t" | "d" | "k" | "g" 
+obstruent = "p" | "b" | "t" | "d" | "k" | "g" | "'" | "c" | "s" | "x" | "X" | "tx" | "dX" | "sl" | "tc"
+consonant = "p" | "b" | "t" | "d" | "k" | "g" | "'" | "c" | "s" | "x" | "X" | "tx" | "dX" | "sl" | "tc" | "m" | "n" | "N" | "h" | "l" | "r" | "rr" 
+semivowel = "j" | "w"
+vowel =  "a" | "q" | "Q" | "A" | "i" | "I" | "y" | "u" | "o" | "e" | "E" | "O"
+others = ":" | "^"
+PUNCTUATION = "." | "," | "!" | "?" | "<" | ">"
+
+aspiratable "h" -> $ /ʰ/
+obstruent "w" -> $ /ʷ/
+
+"p" -> /p/; "b" -> /b/; "t" -> /t/; "d" -> /d/; "k" -> /k/;  "g" -> /g/; "'" -> /ʔ/; "c" -> /s/; "s" ->/z/; "x" -> /ʃ/; "X" -> /ʒ/; "tx" -> /ʧ/;  "dX" -> /ʤ/; "sl" -> /ʂ/; "tc" -> /ʦ/; "m" -> /m/;  "n" -> /n/; "N" -> /ŋ/;  "h" -> /h/; "l" -> /l/; "r" -> /ʁ/; "rr" -> /ɻ/
+"j" -> /j/; "w" -> /w/;
+"a" -> /a/; "q" -> /ə/;  "Q" -> /ə̃/; "A" -> /æ/; "i" -> /i/; "I" -> /ɪ/; "y" -> /y/; "u" -> /u/; "o" -> /o/; "e" -> /e/; "E" -> /ɛ/; "O" -> /œ/
+":" -> /ː/; "~" -> //;

@@ -11,7 +11,7 @@ SVOWL_S="(a|q|Q|A|i|I|y|u|o|e|E|O)"
 #ejnina
 「prusti」をPL後期。
 それを表示。
-//prostiが予想される出力
+//prustiが予想される出力
 //rotiと出てきてしまう。
 //子音連続を無視している……？
 

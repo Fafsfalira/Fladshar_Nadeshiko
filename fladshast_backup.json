@@ -1,0 +1,71 @@
+{
+  "words" : [ {
+    "entry" : {
+      "id" : -1,
+      "form" : "mais"
+    },
+    "translations" : [ {
+      "title" : "【名詞】",
+      "forms" : [ "私", "自分", "自己" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "語義",
+      "text" : "自分、自己"
+    }, {
+      "title" : "語源",
+      "text" : "(*məjs.PL>)miːs >>>> miːs > məis >>> mɐis\n(*məji.PL>)məj > mæː >>> mɛː > miː > mi >>> mi\n(*məjænd.PL>)məjænd >>>> məjand >> məjænd > məjɑːnd > məjɑːnt̚\n(*məjk.PL>)miːk >>> miːʧ >> məiʧ >>> mɐiʧ\n(*məjl.PL>)miːl >>>>> məil >>> mɐil"
+    } ],
+    "variations" : [ {
+      "title" : "対格",
+      "form" : "mi"
+    }, {
+      "title" : "属格",
+      "form" : "mayant"
+    }, {
+      "title" : "与格",
+      "form" : "maich"
+    }, {
+      "title" : "向格",
+      "form" : "mail"
+    } ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 0,
+      "form" : ""
+    },
+    "translations" : [ ],
+    "tags" : [ ],
+    "contents" : [ ],
+    "variations" : [ ],
+    "relations" : [ ]
+  } ],
+  "zpdic" : {
+    "alphabetOrder" : null,
+    "punctuations" : [ ",", "、" ],
+    "plainInformationTitles" : [ ],
+    "informationTitleOrder" : null,
+    "defaultWord" : {
+      "entry" : {
+        "id" : -1,
+        "form" : ""
+      },
+      "translations" : [ ],
+      "tags" : [ ],
+      "contents" : [ {
+        "title" : "語義",
+        "text" : "Vaifise"
+      }, {
+        "title" : "語源",
+        "text" : "なにか"
+      }, {
+        "title" : "文化",
+        "text" : "なにか"
+      } ],
+      "variations" : [ ],
+      "relations" : [ ]
+    }
+  },
+  "snoj" : null
+}

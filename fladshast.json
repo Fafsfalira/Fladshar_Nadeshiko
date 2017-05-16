@@ -1,0 +1,328 @@
+{
+  "words" : [ {
+    "entry" : {
+      "id" : -1,
+      "form" : "mais"
+    },
+    "translations" : [ {
+      "title" : "【名詞】",
+      "forms" : [ "私", "自分", "自己" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "発音",
+      "text" : "[mɐis][mi][məjɑːnt̚][mɐiʧ][mɐil]\n"
+    }, {
+      "title" : "語義",
+      "text" : "話し手、話をしている本人、行為を行っているその人"
+    }, {
+      "title" : "語源",
+      "text" : "(*məjs.PL>)miːs >>>> miːs > məis >>> mɐis\n(*məji.PL>)məj > mæː >>> mɛː > miː > mi >>> mi\n(*məjænd.PL>)məjænd >>>> məjand >> məjænd > məjɑːnd > məjɑːnt̚\n(*məjk.PL>)miːk >>> miːʧ >> məiʧ >>> mɐiʧ\n(*məjl.PL>)miːl >>>>> məil >>> mɐil\n\n(*məjsəs.PL>)miːsəs >>>>>>>> misəs > misəs\n(*məjsi.PL>)miːs >>>>> məis >>>> mɐis\n(*məjsænd.PL>)miːsænd >>>> miːsand > məisand > məisænd > məisɑːnd > məisɑnd > mɐisɑnt̚\n(*məjsək.PL>)miːsək >>>>>> məisək >>> mɐisəｋ̚\n(*məjsəl.PL>)miːsəl >>>>>> məisəl >>> mɐisəl"
+    } ],
+    "variations" : [ {
+      "title" : "単数対格",
+      "form" : "mi"
+    }, {
+      "title" : "単数属格",
+      "form" : "mayant"
+    }, {
+      "title" : "単数与格",
+      "form" : "maich"
+    }, {
+      "title" : "単数向格",
+      "form" : "mail"
+    }, {
+      "title" : "複数主格",
+      "form" : "misas"
+    }, {
+      "title" : "複数主格",
+      "form" : "mais"
+    }, {
+      "title" : "複数属格",
+      "form" : "maisant"
+    }, {
+      "title" : "複数与格",
+      "form" : "maisak"
+    }, {
+      "title" : "複数向格",
+      "form" : "maisal"
+    } ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 0,
+      "form" : "shus"
+    },
+    "translations" : [ {
+      "title" : "【名詞】",
+      "forms" : [ "あなた", "君", "貴方" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "発音",
+      "text" : "[ʃus][kɪ][ʃuɑːnt̚][ʃuｋ̚][ʃul]\n[ʃusəs][ʃusɑnt̚][ʃusəｋ̚][ʃusəl]\n"
+    }, {
+      "title" : "語義",
+      "text" : "話を聞いているその人"
+    }, {
+      "title" : "語源",
+      "text" : "(*kos.PL>)kos >>> keos >>>>> ʃus\n(*koi.PL>)koi >>> kʏ > kɪ >>>> kɪ\n(*koænd.PL>)koænd >>>> keoand >>keoænd > keoɑːnd > ʃuɑːnt̚\n(*kok.PL>)kok >>> keok >>>>> ʃuｋ̚\n(*kol.PL>)kol >>> keol >>>>> ʃul\n\n(*kosəs.PL>)kosəs >>> keosəs >>>>>> ʃusəs\n(*kosi.PL>)kos >>> keos >>>>>>> ʃus\n(*kosænd.PL>)kosænd >>>keosænd > keosand >> keosænd > keosɑːnd >> keosɑnd > ʃusɑnt̚\n(*kosək.PL>)kosək >>> keosək >>>>>>> ʃusəｋ̚\n(*kosəl.PL>)kosəl >>> keosəl >>>>>>> ʃusəl"
+    } ],
+    "variations" : [ {
+      "title" : "単数対格",
+      "form" : "ki"
+    }, {
+      "title" : "単数属格",
+      "form" : "shuant"
+    }, {
+      "title" : "単数与格",
+      "form" : "shuk"
+    }, {
+      "title" : "単数向格",
+      "form" : "chail"
+    }, {
+      "title" : "複数主格",
+      "form" : "shusas"
+    }, {
+      "title" : "複数対格",
+      "form" : "shus"
+    }, {
+      "title" : "複数属格",
+      "form" : "shusant"
+    }, {
+      "title" : "複数与格",
+      "form" : "shusak"
+    }, {
+      "title" : "複数向格",
+      "form" : "shusal"
+    } ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 1,
+      "form" : "chais"
+    },
+    "translations" : [ {
+      "title" : "【名詞】",
+      "forms" : [ "彼", "彼女", "あの人" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "発音",
+      "text" : "[ʧʰɐis][kʰe][kəjɑːnt̚][ʧʰɐiʧ][ʧʰɐil]\n[mɐisəs][kʰe][ʧʰɐisɑnt̚][ʧʰɐisəｋ̚][ʧɐisəl]"
+    }, {
+      "title" : "語義",
+      "text" : "話し手でも聞き手でもない第三者。"
+    }, {
+      "title" : "語源",
+      "text" : "(*kəjs.PL?)kiːs >>> ʧiːs >> ʧəis >>> ʧʰɐis\n(*kəji.PL>)kəj > kæː >>> kɛː > keː > ke >> kʰe\n(*kəjænd.PL>)kəjænd >>>> kəjand >> kəjænd > kəjɑːnd >> kəjɑːnt̚\n(*kəjk.PL>)kiːk >>> ʧiːʧ >> ʧəiʧ >>>> ʧʰɐiʧ\n(*kəjl.PL>)kiːl >>> ʧiːl >> ʧəil >>>> ʧʰɐil\n\n(*kəjsəs.PL)miːsəs >>>>> məisəs >>>>> mɐisəs\n(*kəji.PL>)kəj > kæː >>> kɛː > keː > ke >>>> kʰe\n(*kəjsænd.PL)kiːsænd >>> ʧiːsænd > ʧiːsand > ʧəisand > ʧəisænd > ʧəisɑːnd > ʧəisɑnd> ʧʰɐisɑnt̚\n(*kəjsək.PL>)kiːsək >>> ʧiːsək > ʧəisək >>>>> ʧʰɐisəｋ̚\n(*kəjsəl.PL>)kiːsəl>>> ʧiːsəl > ʧəisəl >>>>> ʧɐisəl"
+    } ],
+    "variations" : [ {
+      "title" : "単数対格",
+      "form" : "ke"
+    }, {
+      "title" : "単数属格",
+      "form" : "shuant"
+    }, {
+      "title" : "単数与格",
+      "form" : "shuk"
+    }, {
+      "title" : "単数向格",
+      "form" : "shul"
+    }, {
+      "title" : "複数主格",
+      "form" : "maisas"
+    }, {
+      "title" : "複数対格",
+      "form" : "ke"
+    }, {
+      "title" : "複数属格",
+      "form" : "chaisant"
+    }, {
+      "title" : "複数与格",
+      "form" : "chaisak"
+    }, {
+      "title" : "複数向格",
+      "form" : "chaisal"
+    } ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 2,
+      "form" : "fageas"
+    },
+    "translations" : [ {
+      "title" : "【名詞】",
+      "forms" : [ "これ", "それ", "あれ" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "発音",
+      "text" : "[fəgeəs][fəgeəsiə][fɐgsɑ̃ːnt̚][fəgeəʃ][fəgeɐsɔːl]\n[fəgeəsɐzəs][fəgeəsiəs][fəgeɐsɑ̃ːnt̚][fəgeəʃ][fəgeɐsɔːl]"
+    }, {
+      "title" : "語義",
+      "text" : "概念上でも現実上でもなんらかの手段で指し示せるもの"
+    }, {
+      "title" : "語源",
+      "text" : "*fəgʰʔæsə-z >> fəgʰʔæsə >>> fəgʰʔæs >> fəgʰʔæs >  fəgʰʔeəs > fəgeəs\n*fəgʰʔæs-i >> fəgʰʔæsi >> fəgʰʔæsio >>>> fəgʰʔæsio > fəgʰʔeəsio> fəgeɐsiə\n*fəgʰʔæs-ænd >> fəgʰʔæsænd >> fəgʰʔæsænd > fəgʰʔsæːnd > fəgʰʔsænd > fəgʰʔsɑːnd > fɐgsɑ̃ːnt̚\n*fəgʰʔæs-k >> fəgʰʔæsk >> fəgʰʔæʃ >>>> fəgʰʔæʃ > fəgʰʔeəʃ > fəgeəʃ\n*fəgʰʔæsə-l >> fəgʰʔæsəl >>>>>> fəgʰʔæsəl > fəgʰʔeəsəl > fəgʰʔeəsɔːl > fəgeɐsɔːl\n\n*fəgʰʔæsə-zə-s >> fəgʰʔæsəzəs >>>>>> fəgʰʔæsəzəs > fəgʰʔeəsəzəs > fəgeəsɐzəs\n*fəgʰʔæs-i-s >>> fəgʰʔæsis >> fəgʰʔæsios >>> fəgʰʔeəsios > fəgeəsiəs\n*fəgʰʔæs-ændə-z >>> fəgʰʔæsændə >> fəgʰʔæsæːndə > fəgʰʔæsæːnd > fəgʰʔæsænd > fəgʰʔæsɑːnd > fəgʰʔeəsɑːnd > fəgeɐsɑ̃ːnt̚\n*fəgʰʔæs-kə-z >> fəgʰʔæskə >> fəgʰʔæʃə >> fəgʰʔæʃ >> fəgʰʔæʃ > fəgʰʔeəʃ > fəgeəʃ\n*fəgʰʔæsə-lə-z >> fəgʰʔæsələ >>> fəgʰʔæsəl > fəgʰʔæsəl > fəgʰʔeəsəl > fəgʰʔeəsɔːl >  fəgeɐsɔːl\n"
+    } ],
+    "variations" : [ {
+      "title" : "単数対格",
+      "form" : "fageasia"
+    }, {
+      "title" : "単数属格",
+      "form" : "fagsant"
+    }, {
+      "title" : "単数与格",
+      "form" : "fageash"
+    }, {
+      "title" : "単数向格",
+      "form" : "fageasol"
+    }, {
+      "title" : "複数主格",
+      "form" : "fageasazas"
+    }, {
+      "title" : "複数対格",
+      "form" : "fageasias"
+    }, {
+      "title" : "複数属格",
+      "form" : "fageasant"
+    }, {
+      "title" : "複数与格",
+      "form" : "fageash"
+    }, {
+      "title" : "複数向格",
+      "form" : "fageasol"
+    } ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3,
+      "form" : "dis"
+    },
+    "translations" : [ {
+      "title" : "【冠詞】",
+      "forms" : [ "（定冠詞）" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "発音",
+      "text" : "[dis][diː][diənt̚][dik][dil]\n[diːsəs][diːs][disənt̚][diʃ][diːsəl]"
+    }, {
+      "title" : "語義",
+      "text" : "既知、すでに話に出てきているものを表す。その～"
+    }, {
+      "title" : "語源",
+      "text" : "*di-s >>>> dios >>>>>> dis\n*di-i >>>> dioio >>>>>> diː\n*di-ænd >>> dioænd > dioaːnd > dioænd >> dioeənd > diənt̚\n*di-k >>> diok >>>>> dik\n*di-l >>> diol >>>>> dil\n\n*di-s-ə-s >>> diosəs >>>>> diːsəs\n*di-s-i >>> diosio >>>>> diːsi\n*di-s-ænd >>> diosænd > diosaːnd >> diosænd >> dioseənd > disənt̚\n*di-s-k >>> diʃ >>>>> diʃ\n*di-s-ə-l >>> diosəl >>>>>diːsəl\n"
+    } ],
+    "variations" : [ {
+      "title" : "単数対格",
+      "form" : "di"
+    }, {
+      "title" : "単数属格",
+      "form" : "diant"
+    }, {
+      "title" : "単数与格",
+      "form" : "dik"
+    }, {
+      "title" : "単数向格",
+      "form" : "dil"
+    }, {
+      "title" : "複数主格",
+      "form" : "dises"
+    }, {
+      "title" : "複数対格",
+      "form" : "dis"
+    }, {
+      "title" : "複数属格",
+      "form" : "disant"
+    }, {
+      "title" : "複数与格",
+      "form" : "dish"
+    }, {
+      "title" : "複数向格",
+      "form" : "disal"
+    } ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 4,
+      "form" : "eus"
+    },
+    "translations" : [ {
+      "title" : "【冠詞】",
+      "forms" : [ "（不定冠詞）" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "発音",
+      "text" : "[ews][ɑːn][əːnent̚][ɑːnk][ɑːnɔːl]\n"
+    }, {
+      "title" : "語義",
+      "text" : "一つのもの、未知のなにか、不特定のものを表す。"
+    }, {
+      "title" : "語源",
+      "text" : "*əwn-s > əwːs >> æaws > aːws >> æws >> eəws > ews\n*əwn-i > əwn >> æan > aːn >> æn > ɑːn >> ɑːn\n*əwn-ænd > əwnænd >> æanænd > æanæːnd > æːnænd >> eəːneənd > əːnent̚\n*əwn-k > əwnk >> æank > aːnk >> ænk > ɑːnk > ɑːnk\n*əwn-ə-l > əwnəl >> æanəl > aːnəl >> ænəl > ɑːnəl > ɑːnɔːl"
+    } ],
+    "variations" : [ {
+      "title" : "単数対格",
+      "form" : "an"
+    }, {
+      "title" : "単数属格",
+      "form" : "anent"
+    }, {
+      "title" : "単数与格",
+      "form" : "ank"
+    }, {
+      "title" : "単数向格",
+      "form" : "anol"
+    } ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5,
+      "form" : "fladsha"
+    },
+    "translations" : [ {
+      "title" : "【名詞】",
+      "forms" : [ "ひと", "人", "人間" ]
+    }, {
+      "title" : "【名詞】",
+      "forms" : [ "フラッドシャー", "フラッドシャー語" ]
+    } ],
+    "tags" : [ ],
+    "contents" : [ {
+      "title" : "発音",
+      "text" : "flædʃɐ́:"
+    }, {
+      "title" : "語義",
+      "text" : "人、人々、意思を持つ野蛮でない行動主体としての人類。"
+    }, {
+      "title" : "語源",
+      "text" : "hlʷaːdəʂə́səs > hlʷadʂə́s >>>>> hlʷædʂə́s >> flædʃɐ́:\n=larta.ly|hudosl.li|latta.jf"
+    }, {
+      "title" : "語法",
+      "text" : "Diant fladsha　フラッドシャーの、フラッドシャー人、フラッドシャー語"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  } ],
+  "zpdic" : {
+    "alphabetOrder" : null,
+    "punctuations" : [ ",", "、" ],
+    "plainInformationTitles" : [ ],
+    "informationTitleOrder" : null,
+    "defaultWord" : {
+      "entry" : {
+        "id" : -1,
+        "form" : ""
+      },
+      "translations" : [ ],
+      "tags" : [ ],
+      "contents" : [ ],
+      "variations" : [ ],
+      "relations" : [ ]
+    }
+  },
+  "snoj" : null
+}
