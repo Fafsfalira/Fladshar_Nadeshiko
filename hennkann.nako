@@ -1,17 +1,20 @@
 CONS_S="(rr|ph|bh|th|dh|kh|gh|txh|dXh|tch|tx|dX|sl|tc|p|b|t|d|k|g|'|c|s|x|X|m|n|N|h|l|r|j|w|T|D|f|v|R)"
 //子音
-VOWL_S="(a:|q:|Q:|A:|i:|I:|y:|u:|o:|e:|E:|O:|U:|@:|V:|C:|a|q|Q|A|i|I|y|u|o|e|E|O|U|@|V|C)"
+VOWL_S="(a:|q:|Q:|A:|i:|I:|y:|u:|o:|e:|E:|O:|U:|@:|V:|C:|Y:|0:|a|q|Q|A|i|I|y|u|o|e|E|O|U|@|V|C|Y|0)"
 //母音
 音節_S="{CONS_S}*{CONS_S}*{CONS_S}*{CONS_S}*{VOWL_S}{CONS_S}*{CONS_S}*{CONS_S}*{CONS_S}*"
 //音節　$1$2$3$4$5$6$7
-LVOWL_S="(a:|q:|Q:|A:|i:|I:|y:|u:|o:|e:|E:|O:|U:|@:|V:|C:)"
+LVOWL_S="(a:|q:|Q:|A:|i:|I:|y:|u:|o:|e:|E:|O:|U:|@:|V:|C:|Y:|0:)"
 //長母音
-SVOWL_S="(a|q|Q|A|i|I|y|u|o|e|E|O|U|@|V|C)"
+SVOWL_S="(a|q|Q|A|i|I|y|u|o|e|E|O|U|@|V|C|Y|0)"
 //短母音
+NASAL_S="(m|n|N)"
+//鼻音
+FRICA_S="(f|v|T|D|j|rr|h|s|z|x|X|sl)"
+//摩擦音
 #二重母音では必ず({CONS_S}*)をj/wの後に付けること、でないとajaやawaも検出してしまう。
 
-「prajzawz」を語派期。
-それを表示。
+
 
 ●PL後期(Aを)
 　　それはA
@@ -33,3 +36,40 @@ SVOWL_S="(a|q|Q|A|i|I|y|u|o|e|E|O|U|@|V|C)"
 　　「aw({CONS_S}*)」を「o:」に正規表現置換。
 　　「z\b」を「」へ正規表現置換。
 　　「z」を「r」に置換
+
+●過渡期(Aを)
+　　それはA
+　　「a:」を「A:」へ置換。
+　　「{VOWL_S}{NASAL_S}{FRICA_S}」を「$1:$3」へ正規表現置換。
+　　それで戻る。
+
+●古フラッドシャー語(Aを)
+　　それはA
+　　「iu」を「eo」へ置換。
+　　「au」を「Aa」へ置換。
+　　「sk」を「x」へ置換。
+　　「o:」を「a」へ置換。
+　　「o」を「eo」へ置換。
+　　「u」を「eo」へ置換。
+　　「u({CONS_S}*)i」を「O$2i」へ正規表現置換。
+　　「u:({CONS_S}*)i」を「0:$2i」へ正規表現置換。
+　　「o({CONS_S}*)i」を「Y$2i」へ正規表現置換。
+　　「o:({CONS_S}*)i」を「y:$2i」へ正規表現置換。
+　　「(j|tx|x)a」を「$1ie」へ正規表現置換。
+　　「k(i|y|e)」を「tx$1」へ正規表現置換。
+　　「g(i|y|e)」を「dX$1」へ正規表現置換。
+　　「(i|y|e)k」を「$1tx」へ正規表現置換。
+　　「(i|y|e)g」を「$1dX」へ正規表現置換。
+　　「i(w|r|l){CONS_S}」を「io$1$2」へ正規表現置換。
+　　「e(w|r|l){CONS_S}」を「eo$1$2」へ正規表現置換。
+　　「A(w|r|l){CONS_S}」を「ea$1$2」へ正規表現置換。
+　　//途中
+　　それで戻る。
+
+「」を中フラッドシャー語。
+それを表示。
+
+●中フラッドシャー語(Aを)
+　　それはA
+　　//処理
+　　それで戻る。
